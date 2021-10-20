@@ -5,21 +5,22 @@
 }
 .header{
     color:hsl(178, 45%, 46%);
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 10px;
     font-family: 'karla';
 }
 
 .header1{
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 20px;
     color:hsl(69, 53%, 65%);
     font-family: 'karla';
 }
 .para{
     color:hsl(202, 5%, 72%);
     font-family: 'karla';
-    font-size: 10px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .header2{
