@@ -3,73 +3,59 @@
     padding: 0;
     margin: 0;
 }
-.box1{
-    width: 100%;
-    height: 40%;
-    padding: 30px;
-}
-
 .header{
-    color:hsl(179, 62%, 43%);
-    font-size: 30px;
+    color:hsl(178, 45%, 46%);
+    font-size: 20px;
     margin-bottom: 10px;
-    font-family: 'karla','bold 700';
+    font-family: 'karla';
 }
 
 .header1{
     margin-bottom: 10px;
-    color:rgb(169, 248, 11);
-    font-family: 'karla','medium 500';
+    font-size: 15px;
+    color:hsl(69, 53%, 65%);
+    font-family: 'karla';
 }
 .para{
-    color:hsl(180, 10%, 82%);
-    font-family: 'karla','regular 400';
+    color:hsl(202, 5%, 72%);
+    font-family: 'karla';
+    font-size: 10px;
 }
 
 .header2{
     color: white;
     margin-bottom: 10px;
     font-size: 20px;
-    font-family: 'karla','medium 500';
+    font-family: 'karla';
 }
 .span1{
     color: white;
     font-family: 'karla','bold 500';
-    font-size: 30px;
+    font-size: 25px;
 }
 .span2{
     color: rgb(241, 234, 234);
-    font-family: 'karla','extra thin 400';
+    font-family: 'karla';
 }
 .para1{
     color: white;
-    font-family: 'karla','regular 400';
+    font-family: 'karla';
+    font-size: 10px;
 }
 .submit{
     color: white;
-    background-color: rgb(169, 248, 11);
-    font-style: ;
-    text-align:center;
-    border-color: rgb(169, 248, 11);
-    font-size: 20px;
+    background-color: hsl(71, 72%, 53%);
     border-radius: 5px;
-    width: 200px;
+    text-align:center;
+    font-size: 15px;
+    border: 1px solid hsl(71, 72%, 53%) ;
+    width: 280px;
     padding: 8px;
-    margin-top: 10px;
+    font-family: 'karla';
 }
-.box2{
-    width: 100%;
-    height: 40%;
-    padding: 30px;
-    background-color: hsl(179, 62%, 43%);
-}
-.box3{
-    background-color: hsl(179, 49%, 52%);
-    width: 100%;
-    height: 35%;
-    color: white;
-    font-family: 'karla','light 200';
-    padding: 30px;
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
 }
 .header3{
     font-family: 'karla','bold 400';
@@ -77,88 +63,30 @@
     color: white;
     margin-bottom: 4px;
 }
-@media screen and (min-width :600px) {
+p{
+    font-family: 'karla';
+    font-size: 10px;
+    color: white;
+    line-height: 20px;
+}
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    flex: 100%;
+    height: 35vh;
+    padding: 20px;
+}
 .box2{
-    width: 50%;
-    height: 40%;
-    float: left;
+    flex: 100%;
+    background-color: hsl(179, 61%, 43%);
+    height: 30vh;
+    padding: 20px;
 }
 .box3{
-    width: 50%;
-    height: 40%;
-    float: right;
-}
-    
-}
-@media screen and ( min-width :1000px) {
-    .box2{
-        width: 50%;
-        height: 80%;
-        float: left;
-    }
-    .box3{
-        width: 50%;
-        height: 80%;
-        float: right;
-        font-size: 1.2rem;
-    }
-    .submit{
-        color: white;
-        background-color: rgb(169, 248, 11);
-        font-style: ;
-        text-align:center;
-        border-color: rgb(169, 248, 11);
-        font-size: 20px;
-        border-radius: 5px;
-        width: 300px;
-        padding: 8px;
-        margin-top: 10px;
-    }
-    .header3{
-        font-family: 'karla','bold 400';
-        font-size: 30px;
-        color: white;
-        margin-bottom: 4px;
-    }
-    .header2{
-        color: white;
-        margin-bottom: 10px;
-        font-size: 30px;
-        font-family: 'karla','medium 500';
-    }
-    .span1{
-        color: white;
-        font-family: 'karla','bold 500';
-        font-size: 2rem;
-    }
-    .span2{
-        color: rgb(241, 234, 234);
-        font-family: 'karla','extra thin 400';
-        font-size: 1.2rem;
-    }
-    .para1{
-        color: white;
-        font-family: 'karla','regular 400';
-        font-size: 1.3rem;
-        margin-top: 10px;
-        margin-bottom: 12px;
-    }
-    .header{
-        color:hsl(179, 62%, 43%);
-        font-size: 40px;
-        margin-bottom: 10px;
-        font-family: 'karla','bold 700';
-    }
-    
-    .header1{
-        margin-bottom: 10px;
-        color:rgb(169, 248, 11);
-        font-family: 'karla','medium 500';
-        font-size: 2rem;
-    }
-    .para{
-        color:hsl(180, 10%, 82%);
-        font-family: 'karla','regular 400';
-        font-size: 1.8rem;
-    }
+    flex: 100%;
+    background-color:hsl(179, 47%, 51%);
+    height: 35vh;
+    padding: 20px;
 }
