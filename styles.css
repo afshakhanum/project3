@@ -33,15 +33,18 @@
     color: white;
     font-family: 'karla','bold 500';
     font-size: 25px;
+    line-height: 20px;
 }
 .span2{
     color: rgb(241, 234, 234);
     font-family: 'karla';
+    line-height: 20px;
 }
 .para1{
     color: white;
     font-family: 'karla';
     font-size: 10px;
+    line-height: 20px;
 }
 .submit{
     color: white;
