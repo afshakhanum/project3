@@ -122,9 +122,22 @@ p{
         background-color:hsl(179, 47%, 51%);
         height: 50vh;
         padding: 40px;
+    }
+    .submit{
+        color: white;
+        background-color: hsl(71, 72%, 53%);
+        border-radius: 5px;
+        text-align:center;
+        font-size: 15px;
+        border: 1px solid hsl(71, 72%, 53%) ;
+        width: 250px;
+        height: 50px;
+        padding: 8px ;
+        font-family: 'karla';
+        margin-left: 10px;
     }   
 }
-@media screen and (min-width :1000px){
+@media screen and (min-width:1000px){
     .flex-wrap{
         display: flex;
         flex-wrap: wrap;
@@ -157,7 +170,7 @@ p{
         height: 50px;
         padding: 8px ;
         font-family: 'karla';
-        margin-left: 100px;
+        /* margin-left: 40px; */
     } 
     .header{
         color:hsl(178, 45%, 46%);
@@ -167,7 +180,6 @@ p{
         line-height: 20px;
         margin-bottom: 40px;
     }
-    
     .header1{
         margin-bottom: 10px;
         font-size: 25px;
